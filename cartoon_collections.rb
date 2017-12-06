@@ -17,8 +17,8 @@ end
 def long_planeteer_calls(array)# code an argument here
   # Your code here
   array.any? { |e|
-    binding.pry
     e.length < 4
+    binding.pry
   }
 end
 
